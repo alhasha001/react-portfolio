@@ -17,9 +17,11 @@ class Refrences extends React.Component {
             <div className="col-sm-12">
               <div className="title-box text-center">
                 <h3 className="title-a">Testimonies</h3>
-                <p className="subtitle-a">
-                  "Ammar is Hard working Software Engineer, we worked together on more than one occasion and he always got the job done."  -John Ghatas
-                </p>
+                <div className="subtitle-a" >
+                 I worked with Ammar multiple times and he always delivered on his promises with qualitative work 
+                  - John Ghatas               
+                </div>
+                
                 <div className="line-mf"></div>
               </div>
             </div>
