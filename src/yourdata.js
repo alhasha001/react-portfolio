@@ -17,21 +17,21 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Ammar Alhashmi",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Full-Stack Engineer",
     //Line 2 For Header
-    "products, brands,",
+    "Building Applications",
     //Line 3 For Header
-    "and experience",
+    "Building Websites",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Down below you can find information on some  projects on which I worked.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "ammar_alhashemi@hotmail.com",
 
   // End Header Details -----------------------
 
@@ -115,25 +115,26 @@ export default {
     }
     */
   ],
-
   // End Work Section -----------------------
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+  "I am Ammar Alhashmi, I graduated as a software engineering at Amsterdam University Of Applied Science, 2021.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "I specialized in Big Data and Blockchain. Most of my Big Data work was in R and my Blockchain work was in Javascript.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "During my Education, I learned software engineering skills and principles. I also did a couple of Internships which help gain more knowledge as a full-stack engineer.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/30168019_1127890224020167_4729008826293747210_o.jpg?_nc_cat=102&ccb=3&_nc_sid=174925&_nc_ohc=Y8mn0M2VR3MAX8Fa3Xz&_nc_ht=scontent-amt2-1.xx&oh=0cc5b5910300695344fd8393a1261b72&oe=604FF64B",
 
   //   End About Section ---------------------
 
   // Skills Section ---------------
 
   //   Import Icons from the top and link it here
-
+  experience: [
+    
+  ],
   skills: [
     {
       id: 1,
