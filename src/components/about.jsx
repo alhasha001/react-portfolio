@@ -14,7 +14,14 @@ class About extends React.Component {
           porcentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        ,
+        {
+          id: "Node.js",
+          content: "Node.js",
+          porcentage: "80%",
+          value: "80"
+        }, 
+        { id: "Blockchain", content: "Blockchain", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -28,14 +35,26 @@ class About extends React.Component {
           value: "75"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
+          id: "R",
+          content: "R",
           porcentage: "85%",
           value: "85"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "Git",
+          content: "Git",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
+          id: "Java",
+          content: "Java",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
+          id: "Database",
+          content: "Database (MySQL, SQL, PostgreSQL, mongoDB)",
           porcentage: "80%",
           value: "80"
         }
@@ -44,18 +63,17 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        },
+            "I am Ammar Alhashmi, I graduated as a software engineering at Amsterdam University Of Applied Science, 2021."},
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        },
+          "I specialized in Big Data and Blockchain. Most of my Big Data work was in R and my Blockchain work was in Javascript."},
+        
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+          "During my Education, I learned software engineering skills and principles. I also did a couple of Internships which help gain more knowledge as a full-stack engineer."},
+        
       ]
     };
   }
