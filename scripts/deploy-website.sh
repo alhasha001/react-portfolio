@@ -14,8 +14,8 @@ set_permissions
 
 echo "========== Creating build in $WEBSITE_LOCATION"
 cd $WEBSITE_LOCATION
-npm ci  --silent
-npm run build --silent
+npm ci  --silent || exit 1
+npm run build --silent || exit 1
 
 echo "-------------- Deploying main link"
 ln -snf $WEBSITE_LOCATION/build $ROOT_LOCATION/current
