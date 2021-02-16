@@ -18,10 +18,10 @@ npm ci  --silent || exit 1
 npm run build --silent || exit 1
 
 echo "-------------- Deploying main link"
-ln -snf $WEBSITE_LOCATION/build $ROOT_LOCATION/current
+ln -snf $WEBSITE_LOCATION/public $ROOT_LOCATION/current
 
 echo "-------------- Deploying backup link"
-ln -snf $WEBSITE_LOCATION/build $ROOT_LOCATION/backup
+ln -snf $WEBSITE_LOCATION/public $ROOT_LOCATION/backup
 
 echo "========== Setting permissions after finalizing deployment on $ROOT_LOCATION"
 set_permissions
