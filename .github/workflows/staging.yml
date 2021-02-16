@@ -1,0 +1,47 @@
+name: Deploy to Staging
+on:
+  push:
+    branches: [development]
+jobs:
+  deploy:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        include:
+          - os: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup SSH Keys and deploy new version on the server
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          echo "--------- Adding SSH keys and configuring the target host"
+          mkdir -p ~/.ssh
+          echo -e "HashKnownHosts no
+          Host *
+            ForwardAgent yes
+            ServerAliveInterval 60
+            ServerAliveCountMax 40
+          Host target
+            User ci
+            HostName "${{ secrets.DEPLOY_SERVER }}" 
+            Port 22" >> ~/.ssh/config
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-keyscan "${{ secrets.DEPLOY_SERVER }}" >> ~/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add - <<< "${{ secrets.DEPLOY_KEY }}"
+          echo "------------------------ Parse variables to files"
+          sudo groupadd devs
+          sudo usermod -aG devs `whoami`  
+          sudo chown :devs -R .
+          echo "---------- Deploying to production servers"
+          echo "----------- Create dir on server"
+          ssh target "mkdir -p $ROOT_FOLDER $RELEASE_FOLDER/release_$GITHUB_SHA/"
+          scp -r ./* target:$RELEASE_FOLDER/release_$GITHUB_SHA/
+          echo "----------- Deploy on server"
+          ssh target "bash -s" < \
+          ./scripts/deploy-website.sh /data/www/staging.ammaralhashmi.com release_$GITHUB_SHA
+    env:
+      ROOT_FOLDER: /data/www/staging.ammaralhashmi.com
+      RELEASE_FOLDER: /data/www/staging.ammaralhashmi.com/releases
