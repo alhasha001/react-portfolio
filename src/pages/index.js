@@ -9,7 +9,6 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
-import Experience from "../components/Experience"
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +16,6 @@ const IndexPage = () => (
     <Header></Header>
     <Work></Work>
     <About></About>
-    <Experience />
     <Skills></Skills>
     <Promotion></Promotion>
     <Footer></Footer>
