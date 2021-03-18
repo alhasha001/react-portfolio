@@ -84,7 +84,7 @@ export default {
   aboutParaThree:
   "During my Education, I learned software engineering skills and principles. I also did a couple of Internships which help gain more knowledge as a full-stack engineer.",
   aboutImage:
-    "https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/30168019_1127890224020167_4729008826293747210_o.jpg?_nc_cat=102&ccb=3&_nc_sid=174925&_nc_ohc=Y8mn0M2VR3MAX8Fa3Xz&_nc_ht=scontent-amt2-1.xx&oh=0cc5b5910300695344fd8393a1261b72&oe=604FF64B",
+    "https://media-exp1.licdn.com/dms/image/C4D03AQE9n8-bSTQf3w/profile-displayphoto-shrink_800_800/0/1616037537624?e=1621468800&v=beta&t=oDte14anYgc5VuEbeZRNO1IB5kw83GXgr4XzpwKafdA",
 
   //   End About Section ---------------------
 
