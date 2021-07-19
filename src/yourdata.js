@@ -46,7 +46,7 @@ export default {
         "I was hired to work as a backend engineer. I built an entire API from scratch for their application. PHP and MYSQL were used", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-      "https://us.123rf.com/450wm/4zevar/4zevar1711/4zevar171100015/90786683-big-data-icon.jpg?ver=6",
+      "https://media-exp3.licdn.com/dms/image/C4D0BAQHGHQpzAZFliA/company-logo_200_200/0/1601551172425?e=2159024400&v=beta&t=BK7Fm6gJGaaIc6o1nitO2Z_F7xzfWKaVrpED_n6sdrI",
       //Project URL - Add Your Project Url Here
     //  url: "http://chetanverma.com/",
     },
@@ -69,7 +69,7 @@ export default {
         "During my internship I programmed a web app in javascript. I have used the framework hyperledger because i have Blockchain wanted to adjust the mechanism in the web app .", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-      "https://media-exp3.licdn.com/dms/image/C4D0BAQHGHQpzAZFliA/company-logo_200_200/0/1601551172425?e=2159024400&v=beta&t=BK7Fm6gJGaaIc6o1nitO2Z_F7xzfWKaVrpED_n6sdrI",
+      "https://static.matchwork.com/company/logo/DK/new1598970608_logo_small.png",
       //Project URL - Add Your Project Url Here
      // url: "http://chetanverma.com/",
     },
