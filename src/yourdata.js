@@ -89,11 +89,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-  "I am Ammar Alhashmi, I graduated as a software engineering at Amsterdam University Of Applied Science, 2021.",
+  "I am Ammar Alhashmi, I graduated as a software engineering at Amsterdam University Of Applied Science, 2021. In 2022 I succesfully finished my master's degree in Data Science ",
   aboutParaTwo:
   "I specialized in Big Data and Blockchain. Most of my Big Data work was in R and my Blockchain work was in Javascript.",
   aboutParaThree:
-  "During my Education, I learned software engineering skills and principles. I also did a couple of Internships which help gain more knowledge as a full-stack engineer.",
+  "During my Education, I learned software engineering skills and principles. I also did a couple of Internships which help gain more knowledge as a full-stack engineer. During my master's degree course, I mastered how to use Ai and ML to solve complicated problems in an original and innovative manner.  ",
   aboutImage:
     "https://media-exp1.licdn.com/dms/image/C4D03AQE9n8-bSTQf3w/profile-displayphoto-shrink_800_800/0/1616037537624?e=1661385600&v=beta&t=WyqsvHMQKXHd9u19Nd_xYYjW0EZziFEyhQc94cDNDCc",
 
