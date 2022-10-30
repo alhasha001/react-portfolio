@@ -80,7 +80,7 @@ export default {
         "During the Big Data project I have a group of 4 on an application that reflects the results of a basketball team. During this project I have used R, Javascript and HTML.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-      "https://us.123rf.com/450wm/4zevar/4zevar1711/4zevar171100015/90786683-big-data-icon.jpg?ver=6",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQED0xZsE5W3xw/profile-displayphoto-shrink_800_800/0/1663595561650?e=1672876800&v=beta&t=l8Tl_Vnc7DzXIujAmOh0q66hc5FIBEY9AQd5Fh_v-lg",
       //Project URL - Add Your Project Url Here
      // url: "http://chetanverma.com/",
     }
