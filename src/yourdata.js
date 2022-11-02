@@ -80,7 +80,8 @@ export default {
         "During the Big Data project I have a group of 4 on an application that reflects the results of a basketball team. During this project I have used R, Javascript and HTML.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQED0xZsE5W3xw/profile-displayphoto-shrink_800_800/0/1663595561650?e=1672876800&v=beta&t=l8Tl_Vnc7DzXIujAmOh0q66hc5FIBEY9AQd5Fh_v-lg",
+      "https://us.123rf.com/450wm/4zevar/4zevar1711/4zevar171100015/90786683-big-data-icon.jpg?ver=6"
+      ,
       //Project URL - Add Your Project Url Here
      // url: "http://chetanverma.com/",
     }
@@ -95,7 +96,7 @@ export default {
   aboutParaThree:
   "During my Education, I learned software engineering and data science skills and principles. I also did a couple of Internships and work assignments which helped me gain more knowledge as a full-stack engineer and a data scientist. During my master's degree course, I mastered how to use AI and ML to solve complicated problems in an original and innovative manner.  ",
   aboutImage:
-    "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/271134927_2256183621190816_6652291042721455686_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Y8DVoYjH4SgAX_uNNIt&tn=Z-Prd3j9dxUKrd2Y&_nc_ht=scontent-ams2-1.xx&oh=00_AT9_DH62JQjn2zM1F8qyhQQUOtIKLe5_nRRhX1rL2CUSDQ&oe=635C291A",
+  "https://media-exp1.licdn.com/dms/image/C4E03AQED0xZsE5W3xw/profile-displayphoto-shrink_800_800/0/1663595561650?e=1672876800&v=beta&t=l8Tl_Vnc7DzXIujAmOh0q66hc5FIBEY9AQd5Fh_v-lg",
 
   //   End About Section ---------------------
 
