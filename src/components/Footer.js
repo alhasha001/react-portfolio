@@ -26,6 +26,9 @@ const Footer = () => {
             ))}
           </div>
           <span>
+          
+          <h5>Edited by Ammar Alhashmi - Created by Chetan Verma</h5>
+
           </span>
         </div>
       </div>
