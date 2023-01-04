@@ -40,6 +40,17 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      id: 5, //DO NOT CHANGE THIS (Please)😅
+      title: "Backend Software Engineering | at ING | 2022", //Project Title - Add Your Project Title Here
+      para:
+        "Working as a Backend Software Engineer", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      "https://www.ing.com/static/ingdotcompresentation/static/images/ING_lion_RGB_200x200.png",
+      //Project URL - Add Your Project Url Here
+    //  url: "http://chetanverma.com/",
+    },
+    {
       id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "Backend Development | at Data Dojo | 2021", //Project Title - Add Your Project Title Here
       para:
@@ -96,7 +107,7 @@ export default {
   aboutParaThree:
   "During my Education, I learned software engineering and data science skills and principles. I also did a couple of Internships and work assignments which helped me gain more knowledge as a full-stack engineer and a data scientist. During my master's degree course, I mastered how to use AI and ML to solve complicated problems in an original and innovative manner.  ",
   aboutImage:
-  "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/271134927_2256183621190816_6652291042721455686_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=33GFuWfxzyIAX8hURW_&tn=Z-Prd3j9dxUKrd2Y&_nc_ht=scontent-ams2-1.xx&oh=00_AfBSe3eUH6aBiY9gVLoVPalQhaFr0XW-qddWnx0ONP36CA&oe=63A948DA",
+  "https://media.licdn.com/dms/image/D4E03AQFGZLaSjkCdCg/profile-displayphoto-shrink_800_800/0/1670367369327?e=1678320000&v=beta&t=f88McC4h9Ft2in-FBffpi5J3dhup3GOIWOqUC88mtaU",
 
   //   End About Section ---------------------
 
