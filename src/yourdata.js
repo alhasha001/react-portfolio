@@ -24,7 +24,7 @@ export default {
     //Line 1 For Header
     "Full-Stack Engineer",
     //Line 2 For Header
-    "Data Scientis",
+    "Data Scientist",
     //Line 3 For Header
     "Solving Problems",
   ],
