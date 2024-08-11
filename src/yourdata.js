@@ -107,7 +107,7 @@ export default {
   aboutParaThree:
   "During my Education, I learned software engineering and data science skills and principles. I also did a couple of Internships and work assignments which helped me gain more knowledge as a full-stack engineer and a data scientist. During my master's degree course, I mastered how to use AI and ML to solve complicated problems in an original and innovative manner.  ",
   aboutImage:
-  "https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/436429751_2892776027531569_8732742677631285105_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Ty0BAPB1hAYQ7kNvgEdZ-oT&_nc_ht=scontent-ams4-1.xx&gid=Au2d4ag_0O-eIWIeHPr2WUW&oh=00_AYDdhPNgtkWwQg-Xwagaepre7cCmMN6ID92Vy2go00CTqg&oe=66AE36B1",
+  "https://media.licdn.com/dms/image/D4E03AQH-gTT4bTQdyA/profile-displayphoto-shrink_800_800/0/1722559260324?e=1729123200&v=beta&t=Zo5aSI-mbI1KufQ3dCHelIgLD9gFX1C43kXjTtjevPA",
 
   //   End About Section ---------------------
 
