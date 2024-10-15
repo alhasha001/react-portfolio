@@ -40,10 +40,19 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Backend Software Engineering | at ING | 2022", //Project Title - Add Your Project Title Here
+      id: 6, //DO NOT CHANGE THIS (Please)😅
+      title: "Full Stack Software Engineering | at Belastingdienst | 2024", //Project Title - Add Your Project Title Here
       para:
-        "Working as a Backend Software Engineer", // Add Your Service Type Here
+        "I am working as a full stack Software Engineer", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      "https://www.meegeldersepoort.nl/wp-content/uploads/2018/02/log-belastingdienst.jpg",
+    },
+    {
+      id: 5, //DO NOT CHANGE THIS (Please)😅
+      title: "Full Stack Software Engineering | at ING | 2022", //Project Title - Add Your Project Title Here
+      para:
+        "I Worked as a full stack Software Engineer", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       "https://www.ing.com/static/ingdotcompresentation/static/images/ING_lion_RGB_200x200.png",
@@ -107,7 +116,7 @@ export default {
   aboutParaThree:
   "During my Education, I learned software engineering and data science skills and principles. I also did a couple of Internships and work assignments which helped me gain more knowledge as a full-stack engineer and a data scientist. During my master's degree course, I mastered how to use AI and ML to solve complicated problems in an original and innovative manner.  ",
   aboutImage:
-  "https://media.licdn.com/dms/image/D4E03AQFGZLaSjkCdCg/profile-displayphoto-shrink_800_800/0/1670367369327?e=1691625600&v=beta&t=hkPZoZv29XdOlUBlqgiscpVQSF1PqRWxoFNZBxFi_9w",
+  "https://media.licdn.com/dms/image/D4E03AQFGZLaSjkCdCg/profile-displayphoto-shrink_800_800/0/1670367369989?e=1700697600&v=beta&t=BqJbeLr9Itbim3WdQy5GKR1JDBnh6bJayKgYmELQnZI",
 
   //   End About Section ---------------------
 
