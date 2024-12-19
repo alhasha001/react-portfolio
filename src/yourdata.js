@@ -7,7 +7,7 @@ import blockchainIcon from "./images/blockchain.jpg"
 import R from "./images/R.png"
 import database from "./images/database.png"
 import Java from "./images/Java.png"
-import profilePic from "./images/profile-pic.png"
+import profilePic from "./images/image.png"
 
 
 
